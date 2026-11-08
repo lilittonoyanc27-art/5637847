@@ -1,0 +1,6 @@
+{
+  "name": "Preparación para el Examen: Géneros Literarios (Español - Հայերեն)",
+  "description": "Aplicación interactiva bilingüe para preparar el examen de literatura (lírica, narrativa, teatro) con 100 cuestionarios, traducción al armenio con un clic y explicaciones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

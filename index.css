@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 17.5px;
+    scroll-behavior: smooth;
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 16.5px;
+    }
+  }
+
+  body {
+    font-family: 'Plus+Jakarta+Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-literary {
+    font-family: 'Newsreader', 'Noto Sans Armenian', Georgia, serif;
+  }
+
+  .font-armenian {
+    font-family: 'Noto Sans Armenian', system-ui, sans-serif;
+  }
+}
+
+/* Custom interactive pulse for translation hints */
+@keyframes hint-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.hint-glow {
+  animation: hint-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
